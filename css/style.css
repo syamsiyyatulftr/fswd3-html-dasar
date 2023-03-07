@@ -1,0 +1,44 @@
+body {
+    background-color: #FFBFCD;
+}
+
+h1 {
+    text-align: center;
+}
+.card-title {
+    color: #2D5E8B;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    border: 3px solid #4D647A;
+    border-radius: 8px;
+    padding: 5px;
+    height: 40vh;
+    width: 15vw;
+    background-color: #C6DFE4;
+}
+
+.card-text {
+    color: #88A5B5;
+}
+
+.card2-title {
+    color: #B68D82;
+    text-align: center;
+}
+
+.card2 {
+    display: inline-block;
+    border: 3px solid #82522C;
+    border-radius: 8px;
+    padding: 5px;
+    height: 40vh;
+    width: 15vw;
+    background-color: #F6EEE3;
+}
+
+.card2-text {
+    color: #E6CCBB;
+}
