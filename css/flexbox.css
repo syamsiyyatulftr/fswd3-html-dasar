@@ -1,0 +1,146 @@
+.flex-container {
+    display: flex;
+    height: auto;
+    width: fit-content;
+    flex-direction: column;
+    gap: 10px;
+    background-color: whitesmoke;
+}
+
+.wrapper1 {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.card-box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: #86D6FD;
+}
+
+.card-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: aquamarine;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.card-box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    background-color: greenyellow;
+}
+
+.card3 {
+    display: flex;
+    flex-direction: row;
+    height: 75%;
+    gap: 10px;
+}
+
+.card4 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.card-box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66.66%;
+    background-color: grey;
+}
+
+.card-box5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33.33%;
+    background-color: orange;
+}
+
+.card5 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.card-box6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 33.33%;
+    background-color: #F4CADD;
+}
+
+.card-box7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66.66%;
+    background-color: #7AD6FF;
+}
+
+.wrapper2 {
+    display: flex;
+    height: 200px;
+    width: 400px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card6 {
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    gap: 10px;
+}
+
+.card-box8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66.66%;
+    background-color: burlywood;
+}
+
+.card-box9 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    background-color: #FF397B;
+}
+
+.card-box10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    background-color: yellow;
+}
