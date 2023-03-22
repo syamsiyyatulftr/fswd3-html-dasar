@@ -23,7 +23,7 @@
         </button>
         <div class="select">
             <select name="todos" class="filter-todo">
-                <option value="all">All</option>
+                <option value="status">All</option>
                 <option value="completed">Finished</option>
                 <option value="uncompleted">Unfinished</option>
             </select>
@@ -34,5 +34,14 @@
     </div>
 
     <script src="../js/todo-list.js"></script>
+    <script>
+        fetch("https://crudcrud.com/api/feefb9f018b14eb7b90d2f6a1663f1c6/todo")
+    .then(res => {
+        return res.json();
+    })
+    .then(data => {
+        console.log(data);
+    });
+    </script>
 </body>
 </html>
