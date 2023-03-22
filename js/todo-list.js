@@ -139,3 +139,49 @@ function removeLocalTodos(todo) {
     todos.splice(todos.indexOf(todoIndex), 1);
     localStorage.setItem('todos', JSON.stringify(todos));
 }
+
+
+fetch("https://crudcrud.com/api/feefb9f018b14eb7b90d2f6a1663f1c6/todo")
+    .then((response) => response.json())
+    .then((data) => console.log(data));
+
+let data = {
+    nama: "Ani",
+    kegiatan: "Melukis",
+    status: "Unfinished",
+};
+
+let filterOptions = {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+};
+
+fetch(
+    "https://crudcrud.com/api/feefb9f018b14eb7b90d2f6a1663f1c6/todo",
+    filterOptions
+)
+    .then((response) => response.json())
+    .then((data) => console.log(data));
+
+let data = {
+    kegiatan: "Berenang",
+    status: "uncompleted",
+};
+
+let filterOptions = {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+};
+
+fetch(
+    "https://crudcrud.com/api/feefb9f018b14eb7b90d2f6a1663f1c6/todo",
+    filterOptions
+)
+    .then((response) => response.json())
+    .then((data) => console.log(data));
