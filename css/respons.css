@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+}
+
+.container {
+    /* width: 70%;
+    margin: 50px auto; */
+    width: 100%;
+    margin: 30px auto;
+}
+
+ .heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+} 
+
+.row {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+    flex-flow: wrap;
+
+}
+
+.card {
+    width: 20%;
+    background: white;
+    border: 5px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.30s;
+}
+
+.card-header {
+    text-align: center;
+    /* padding: 60px 10px; */
+    padding: 10px 5px;
+    color: white;
+    height: 40%;
+}
+
+.card-body {
+    padding: 40px 20px;
+    font-size: 18px;
+}
+
+.card-body .btn {
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: cadetblue;
+    margin-top: 30px;
+
+    /* tanpa garis bawah */
+    text-decoration: none;
+    padding: 10px 5px;
+}
+
+/* Efek jika card diklik dengan kursor */
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width:1000px){
+    .card {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:620px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .heading{
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
+
+/* header */
+.header{
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    padding: 0 100px;
+}
+
+h3 {
+    line-height: 60px;
+}
+
+.nav ul li {
+    display: inline-block;
+} 
+
+
+/* nav ul li:hover {
+    background: white;
+    color: white;
+} */
+
+.nav ul li a {
+
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+@media screen and (max-width: 768px) { 
+
+    .nav {
+        position: relative;
+        display: block;
+        width: 60%;
+    }
+
+    .nav ul {
+        position: absolute;
+        width: 50%;
+       
+    }
+
+    .nav ul li {
+        display: block;
+        margin-top: 20px;
+        width: 50%;
+        height: 10px;
+    }
+
+
+
+    /* .container {
+        width: 100%;
+    } */
+
+    /* .header {
+        padding: 20px;
+        font-size: 20px;
+    } */
+
+    /* header {
+        width: 30%;
+    }  */
+ }
+
+ .nav2 {
+        /* position: relative; */
+            height: 150px;
+            width: 100%;
+            background-color: skyblue;
+            text-align: center;
+            /* display: flex;
+            align-items: center;
+            justify-content: space-between; */
+ }
+
+ .nav2 h2 {
+    line-height: 100px;
+ }
+
+ .nav2 h3 {
+     line-height: 5px;
+ }
+
+
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: auto;
+    padding:  0 20px;
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+
+.flex2 {
+    width: 25%;
+    text-decoration: none;
+    margin-bottom: 60px;
+    padding: 10px;
+    display: inline-block;
+    /* flex-direction: row; */
+    
+}
+
+.card-image {
+    width: 100%;
+    
+}
+
+
+/* .card {
+    width: 20%;
+    background: white;
+    border: 5px solid #ccc;
+    margin-bottom: 50px;
+    transition: 0.30s;
+} */
